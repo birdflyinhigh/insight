@@ -1,0 +1,98 @@
+.mpanelbtn{
+	width: 2.26%;
+	height: 315px;
+	line-height: 315px;
+	background: url(../../static/img/return.png) right center no-repeat;	
+	cursor: pointer; 
+	display: inline-block;
+}
+.mpanelbtn.mprev-btn{
+	transform: rotate(180deg);
+}
+.hr-mpannel{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.m-pannel1{
+	background-color: #fff;
+	width: 46.8%;
+	height: 315px;
+	margin-right: 1.5%; 
+	display: inline-block;
+	border-radius: 3px;
+	vertical-align: top;
+}
+.m-pannel1.nomargin{
+	margin-right: 0;
+}
+.mpanel-title{
+	line-height: 60px;
+	border-bottom: solid 1px #edf0f7;
+}
+.m-pannel1 b{
+	display: inline-block;
+	text-align: center;
+}
+.pannel-col1{
+	width: 33.5%;
+	padding-left: 10px;
+}
+.pannel-col2{
+	width: 16.6%;
+}
+ul.mpannel-content{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.mpannel-content li{
+	line-height: 50px;
+	border-bottom: solid 1px #edf0f7;
+}
+ul.mpannel-content li:hover{
+	background-color: #f1f3fa;
+}
+.mpannel-content b{
+	font-weight: normal;
+	text-align: center;
+	font-size: 12px;
+}
+.mpannel-content i{
+	font-style: normal;
+}
+.mpannel-content .pannel-col1{
+	color: #2c77f2;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.mpannel-content .prank-top{
+	padding-right: 5px;
+	font-weight: bold;
+}
+.mpannel-content .prank-index{
+	padding-right: 10px;
+	font-weight: bold;
+}
+.mpannel-content .prank-icon{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.mpannel-content .pkup{
+	background: url(../../static/img/up.png) center top no-repeat;
+	vertical-align: middle;
+}
+.mpannel-content .pkdown{
+	background: url(../../static/img/down.png) center top no-repeat;
+	vertical-align: middle;
+}
+.mpannel-content .choosedItem{
+	background-color: #f1f3fa;
+}
+.manage-sectitle{
+	font-size: 16px;
+  margin-bottom: 0;
+  position: relative;
+  padding-bottom: 15px;
+}

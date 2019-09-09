@@ -1,0 +1,13 @@
+.convert-select-2{
+    width: 250px;
+    height: 29px;
+    float: right;
+    display: flex;
+    top: 2px;
+}
+
+
+.convert-select-name{
+    width:50px;
+    line-height: 30px;
+}

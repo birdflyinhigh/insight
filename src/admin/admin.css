@@ -1,0 +1,171 @@
+.xiechenghead .fcontainer{
+  height: auto;
+}
+.total-wrapper .top-total-pin{
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.total-wrapper h3{
+  text-align: center; 
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.total-wrapper p{
+  text-align: center;
+  margin-bottom: 0;
+}
+.total-wrapper .panel-big-num{
+  color: #5688f4;
+  font-size: 30px;
+  font-weight: bold;
+}
+.panel-num-down{
+  color: #f45670;
+  padding-left: 15px;
+  background: url(../static/img/down.png) no-repeat left center;
+}
+.panel-num-up{
+  color: #9efa6c;
+  padding-left: 15px;
+  background: url(../static/img/up_bright.png) no-repeat left center;
+}
+.pin-item{
+  padding: 10px 15px 15px 15px; 
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+}
+.pin-item .pin-title-wrapper{
+  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.pin-item .pin-title{
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+}
+.pin-item .pin-total-num{
+  font-size: 14px;
+  /* float: right; */
+}
+.pin-item .pin-num{
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  margin-bottom: 0;
+}
+.pin-item p{
+  margin-bottom: 0;
+}
+.admin-page .hrchart-title{
+  font-size: 18px;
+  color: #595959;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+.admin-distination{
+  padding-top: 25px;
+  padding-left: 30px;
+  overflow: hidden;
+  padding-right: 30px;
+}
+.admin-distination .dis-title{
+  font-size: 16px;
+  padding-left: 16px;
+}
+.admin-distination .dis-radius{
+  width: 140px;
+  height: 25px;
+  margin-bottom: 16px;
+  line-height: 25px;
+  color: #fff;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+.admin-distination .dis-gradius{
+  padding-top: 30px;
+}
+.admin-distination .dis-item1{
+  float: left;
+  width: 25%;
+  /* min-width: 130px; */
+}
+.admin-distination .dis-item1 .dis-title{
+  color: #5889f4;
+}
+.admin-distination .dis-item1 .dis-radius{
+  background-image: linear-gradient(to right, #5989f5, #96a1fa);
+}
+.admin-distination .dis-item2{
+  float: left;
+  width: 25%;
+  /* min-width: 130px; */
+}
+.admin-distination .dis-item2 .dis-title{
+  color: #8cd1fe;
+}
+.admin-distination .dis-item2 .dis-radius{
+  background-image: linear-gradient(to right, #8ad0fe, #77b4fe);
+}
+.admin-distination .dis-item3{
+  float: left;
+  width: 47%;
+  /* min-width: 204px; */
+}
+.admin-distination .dis-item3 .dis-title{
+  color: #f89fa3;
+}
+.admin-distination .dis-item3 .dis-radius{
+  background-image: linear-gradient(to right, #f8a0a4, #fbba98);
+}
+.admin-body .erp-selectbox{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+.admin-body .selecticon-group{
+  border: none;
+}
+.admin-body .selecticon-group span{
+  padding: 4px 8px;
+  border: solid 1px #5888f4;
+  color : #5888f4;
+  border-right: none;
+}
+.admin-body .selecticon-group span:first-child{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 15px;
+}
+.admin-body .selecticon-group span:last-child{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: solid 1px #5888f4;
+  padding-right: 15px;
+}
+.admin-body .selecticon-group span.active-btnicon{
+  background-color : #5888f4;
+  color: #fff;
+}
+.admin-body .admin-select{
+  width: auto;
+  text-align: left;
+  color: #5888f4;
+}
+.admin-body .admin-select .ant-select-selection{
+  border-color: #5888f4;
+  color: #5888f4;
+}
+.admin-download{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  top: 23px;
+  display: inline-block;
+  background: url(../static/img/blue_download.png) left top no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}

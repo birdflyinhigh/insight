@@ -1,0 +1,60 @@
+.dash-header{
+  padding-left: 30px;
+  background-color: #fff;
+  font-size: 0;
+}
+.dashh-item{
+  display: inline-block;
+  padding: 12px 3% 12px 0;
+  /* overflow: hidden; */
+  font-size: 1.6rem;
+}
+.dashh-item b{
+  font-weight: normal;
+}
+.dashh-title{
+  font-size: 1.6rem;
+  padding-right: 10px;
+  display: inline-block;
+}
+.dashh-quickbtn{
+  display: inline-block; 
+}
+.dashh-quickbtn b{
+  font-weight: normal;
+  font-size: 1.6rem;
+  display: inline-block;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+  border: solid 1px #dedede;
+  border-right: none;
+}
+.dashh-quickbtn b:last-child{
+  border-right: solid 1px #dedede;
+}
+.dashh-quickbtn .active{
+  background-color: #5888f4;
+  color: #fff;
+}
+.dashh-dates{
+  display: inline-block;
+  color: #dedede;
+  margin-left: 30px;
+}
+.dash-header .ant-input,
+.dash-header .ant-select-selection{
+  border-radius: 0;
+}
+.dash-header .query-btn{
+  margin-top: 0;
+}
+.dash-header .query-btn a{
+  background-color: #5888f4;
+  transition: all 0.35 ease-in-out;
+}
+.dash-header .query-btn a:hover{
+  box-shadow: 0 0 8px #5888f4;
+  text-decoration: none;
+  color: #fff;
+}

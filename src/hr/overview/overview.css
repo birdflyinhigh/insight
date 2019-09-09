@@ -1,0 +1,42 @@
+.hr-overview .hrpan-item-wrapper{
+	width: 22.6%;
+}
+.hr-overview .hrpan-item{
+	background-size: 100% 100%;
+}
+.oleft-container{
+	width: 70%;
+	float: left;
+}
+.oright-container{
+	width: 29%;
+	float: right;
+}
+.orank-wrapper{
+	background-color: #fff;
+	min-height: 735px;
+	border-radius: 5px;
+}
+ul.orank-body{
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+ul.orank-body li{
+	list-style: none;
+	line-height: 30px;
+}
+ul.orank-body li span{
+	display: inline-block;
+	text-align: center;
+}
+ul.orank-body li .orank-col1{
+	width: 45%;
+	text-align: left;
+}
+ul.orank-body li .orank-col2{
+	width: 25%;
+	color: #2a7bff;
+}
+ul.orank-body li .orank-col3{
+	width: 30%;
+}

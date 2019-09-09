@@ -1,0 +1,37 @@
+.financial-header{
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px; 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-item{
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 35px;
+  
+}
+.header-level2{
+  float: left;
+  min-width: 1200px;
+}
+.header-level2 .header-item{
+  padding-top: 0;
+}
+.header-level2 .query-btn{
+  margin-top: 0;
+}
+.header-item b{
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+.org-wrapper{
+  width: 100%;
+}
+@media(max-width: 1730px) {
+  .org-wrapper {
+    float: left;
+  }
+}

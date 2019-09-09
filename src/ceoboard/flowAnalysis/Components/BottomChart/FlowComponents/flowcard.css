@@ -1,0 +1,12 @@
+.card-container{
+    position:relative;
+}
+.convert-card-help{
+    position: absolute;
+    left:142px;
+    top:3px;
+}
+
+#desc-muti-text > div{
+    padding:0px;
+}

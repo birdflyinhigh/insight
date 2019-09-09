@@ -1,0 +1,20 @@
+.trend-header-container{
+    width: 110%;
+    height:30px;
+    line-height: 30px;
+}
+
+
+
+
+
+.trend-header{
+    width: 500px;
+    height: 29px;
+    float: right;
+    display: flex;
+}
+
+#root > div > div > div > div > div.charts-content > div > div > div > div.ant-table-wrapper.flow-table > div > div > div > div > div > div.ant-table-header > table > thead > tr:nth-child(1) > th:nth-child(6){
+
+}

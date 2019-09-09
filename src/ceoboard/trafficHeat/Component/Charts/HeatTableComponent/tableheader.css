@@ -1,0 +1,37 @@
+.heat-table-header-container{
+    width: 110%;
+    height:30px;
+    line-height: 30px;
+}
+
+
+
+
+
+.heat-table-header{
+    width: 675px;
+    height: 29px;
+    float: right;
+    display: flex;
+}
+
+.traffic-select-box{
+    width: 120px;
+    height:29px;
+    margin-right: 5px;
+    text-align: center;
+
+}
+
+.traffic-select-title {
+    margin-right:5px;
+    margin-top: 2px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.traffic-select-group{
+    margin-left: 8px;
+    font-size:14px
+
+}

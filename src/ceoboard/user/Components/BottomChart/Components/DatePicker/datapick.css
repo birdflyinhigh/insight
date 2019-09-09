@@ -1,0 +1,15 @@
+#date-pick-option{
+    height:auto;
+    float:left;
+    display:inline;
+    width: 90px;
+    margin-right:6px
+}
+
+.date-pick-date {
+    height:auto;
+    float:left;
+    display:inline;
+    width: 270px;
+    margin-right:6px;
+}

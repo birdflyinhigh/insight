@@ -1,0 +1,334 @@
+/* other part of index page */
+.dash-pagetitle{
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+.dash-container p{
+  margin: 0;
+}
+.dashtop-panel{
+  padding-top: 30px;
+}
+.dashtop-panel p{
+  margin: 0;
+}
+.dashtop-panel .dashtop-panel-iwrapper{
+  padding-right: 1.5%;
+  width: 20.3%;
+  float: left;
+}
+.dashtop-panel .dashtop-panel-iwrapper:last-child{
+  padding-right: 0;
+  width: 18.78%;
+}
+.dashtop-panel .dashtop-panel-item{
+  width: 100%;
+  background-color: #fff;
+  float: left;
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.dashtop-panel .dashtop-panel-item:hover{
+  box-shadow: 0 0 30px #b2c7f7;
+}
+.dashtop-panel .dashtop-panel-item:last-child{
+  margin-right: 0;
+}
+.dashtop-panel .dtpanel-item-title{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 30px;
+  line-height: 40px;
+}
+.dtpanel-item-num{
+  padding-left: 30px;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dtpanel-item-subnum{
+  padding-left: 30px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.dashcus-analysis{
+  padding-top: 30px;
+}
+.dashcus-body{
+  padding: 20px 30px 30px 30px;
+  background-color: #f2f5fa;
+}
+.dashsection-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 45px;
+  background-color: #5888f4;
+  margin: 0;
+  padding-left: 30px;
+}
+.dashcus-analysis .dc-title{
+  font-size: 24px;
+  color: #5888f4;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #e4ecff;
+}
+.dashcus-analysis .dc-lmap-wrapper{
+  padding-top: 20px;
+  padding-right: 20px;
+  width: 53.71%;
+  display: inline-block;
+  vertical-align: top;
+}
+.dashcus-analysis .dc-rmap-wrapper{
+  padding-top: 20px;
+  width: 46.29%;
+  display: inline-block;
+}
+.dashcus-analysis .dc-map-employe{
+  background-color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  position: relative;
+}
+.dc-map-indexline{
+  height: 20px;
+  width: 3px;
+  background-color: #5888f4;
+  position: absolute;
+  left: 50%;
+  top: -20px;
+}
+
+.dc-employe-groups{
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+.dashcus-analysis .dc-employe-item{
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+} 
+.dc-map-title{
+  padding-left: 30px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+  border-bottom: solid 1px #e3e8ef;
+}
+.dashcus-analysis .dc-mitem-title{
+  font-size: 16px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.dc-mitem-subtitle{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-size: 12px;
+  color: #9e9e9e;
+  width: 100%;
+}
+.dc-map-num{
+  font-size: 20px;
+  color: #5888f4;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  border-bottom: solid 1px transparent;
+  min-width: 50px;
+  position: relative;
+}
+/* .dc-map-num:hover{
+  border-bottom: solid 1px #5888f4;
+  display: inline-block;
+} */
+.dc-mapnum-ratio{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -15px;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+.dc-map-split{
+  position: absolute;
+  right: 0;
+  top: 8px;
+  height: 63px;
+  width: 1px;
+  background-color: #e3e8ef;
+}
+.dc-map-manager{
+  padding-top: 20px;
+}
+.dc-map-manager>div{
+  width: 50%;
+  display: inline-block;
+}
+.dc-map-manager>div:first-child{
+  padding-right: 10px; 
+}
+.dc-map-manager>div:last-child{
+  padding-left: 10px;
+}
+.dc-map-manager .dc-mwrapper{
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative;
+}
+.dc-map-manager .dc-employe-groups{
+ padding-top: 0;
+ padding-bottom: 0;
+}
+.dc-map-manager .dc-employe-item{
+  width: 50%;
+  padding-top: 15px;
+  margin-bottom: 35px;
+}
+.dc-map-manager .dc-map-split{
+  top: 30px;
+}
+.dc-map-service{
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative;
+  min-height: 351px;
+  padding-bottom: 30px;
+}
+.dc-map-service .dc-employe-groups{
+  padding-top: 27px;
+  padding-bottom: 0;
+ }
+ .dc-map-service .dc-employe-item{
+   width: 33.33%;
+   padding-top: 50px;
+   padding-bottom: 45px;
+ }
+ .dc-map-service .dc-map-split{
+   top: 55px;
+   height: 66px;
+   background-color: #8e98f5;
+ }
+ .dc-map-service .dc-map-num{
+  font-size: 20px;
+  color: #8e98f5;
+  padding-top: 10px;
+}
+/* .dc-map-service .dc-map-num:hover{
+  border-bottom: solid 1px #8e98f5;
+} */
+.dc-chart-wrapper{
+  padding-top: 20px;
+}
+.dc-chart-wrapper .dc-chart-item{
+  padding-right: 20px;
+  height: 330px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.dc-chart-wrapper .dc-chart-item:last-child{
+  padding-right: 0;
+}
+.dc-chart-wrapper .dc-chart{
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.dc-chart-wrapper  .dc-chart-title{
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.dashzwork-analysis{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.dashzwork-analysis .dz-body{
+  background-color: #fff;
+}
+.dashzwork-analysis .dz-item-groups{
+  width: 69.49%;
+  display: inline-block;
+  padding-left: 2%;
+  padding-bottom: 30px;
+  vertical-align: top;
+  position: relative;
+}
+.dashzwork-analysis .dz-item-wrapper{
+  width: 25%;
+  padding-top: 30px;
+  padding-right: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.dashzwork-analysis .dz-item{
+  background-color: #e4ecff;
+  border-radius: 6px;
+  padding: 25px 6.9% 15px 6.9%;
+  transition: all 0.25s ease-in;
+  cursor: pointer;
+}
+.dashzwork-analysis .dz-item:hover{
+  box-shadow: 0 0 50px #b2c7f7;
+}
+.dashzwork-analysis .dz-cnmap-wrapper{
+  width: 30.51%;
+  display: inline-block;
+  vertical-align: top;
+  /* padding-left: 4.4%; */
+}
+.dashzwork-analysis .dz-item-title{
+  font-size: 16px;
+  text-align: center;
+}
+.dashzwork-analysis .dz-isubtitle{
+  text-align: left;
+  font-size: 16px;
+  line-height: 33px;
+}
+.dashzwork-analysis .dz-item-title-num{
+  text-align: left;
+  font-size: 20px;
+  color: #5888f4;
+  font-weight: bold;
+  padding-left: 5px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.dashzwork-analysis .dz-item-num{
+  font-size: 26px;
+  color: #5888f4;
+  text-align: center;
+  padding-top: 7px;
+  font-weight: bold;
+}
+.dashzwork-analysis .dz-tips{
+  position: absolute;
+  right: -180px;
+  top: 30px;
+  font-size: 16px;
+  color: #5888f4;
+}
+.dash-container .intro{
+  left: -135px;
+  width: 180px;
+  max-height: 450px;
+}
+.dash-container .dashcus-analysis .intro{
+  text-align: left;
+}
+.dash-container .help{
+  background: url(../../static/img/helpn.png) left top no-repeat;
+}

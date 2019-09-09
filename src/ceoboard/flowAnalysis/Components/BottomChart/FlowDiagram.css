@@ -1,0 +1,72 @@
+.box-title {
+    padding: 10px;
+    border: none;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    color: #5A7DF1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Microsoft YaHei'
+}
+
+
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(2)  > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(3) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(7) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(12) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(17) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(22) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+
+
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(8) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(13) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(18) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(6) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g:nth-child(23) > path{
+    stroke-dasharray: 4;
+    marker-end: none;
+    z-index: -1;
+}

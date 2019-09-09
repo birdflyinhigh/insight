@@ -1,0 +1,344 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+#root{
+  height: 100%;
+}
+.erp-container{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e3e8ee;
+  min-height: 940px;
+  min-width: 1350px;
+}
+.nolimit-bg{
+  background-color: #e3e8ee;
+  min-height: 100%;
+  padding: 20px 2.6%;
+}
+.erp-pagetitle{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+.erp-pagetitle>a{
+  font-size: 14px;
+  color: #5688f4;
+  cursor: pointer;
+  font-weight: normal;
+  padding-right: 20px;
+}
+.self-clearfix:before,
+.self-clearfix:after {
+  content: '';
+  line-height: 0;
+  display: table;
+  zoom: 1;
+}
+
+.self-clearfix:after {
+  clear: both;
+}
+.self-clearfix {
+  *zoom: 1;
+}
+.common-padding{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.self-row{
+  padding-bottom: 15px;
+}
+.self-col-4{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 45%;
+  float: left;
+}
+.self-col-6{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 55%;
+
+  float: left;
+}
+.self-col-2{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 25%;
+  float: left;
+}
+.self-col-5{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  float: left;
+}
+.self-col-3{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 33.33%;
+  min-width: 440px;
+  float: left;
+}
+.self-20{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20%;
+  float: left;
+}
+.self-30{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 30%;
+  float: left;
+}
+.item-container{
+  background-color: #fff;
+  height: 100%;
+}
+.erp-body{
+  padding-top: 15px;
+}
+.query-btn{
+  width: 103px;
+  height: 33px;
+  line-height: 33px;
+  margin-top: 15px;
+  color: #fff;
+  float: left;
+}
+.query-btn a{
+  background-color: #5b73d7;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.erp-container .ant-select-selection{
+  border-radius: 0;
+}
+.erp-container .chart-title{
+  font-size: 16px;
+  margin: 0;
+  padding: 15px;
+}
+.erp-container .chart-title span, .download-icon{
+  display: inline-block;
+  float: right;
+  background: url(./static/img/download.png) left center no-repeat;
+  color: #9f9f9f;
+  width: 54px;
+  text-align: right;
+  font-size: 14px;
+  cursor: pointer;
+}
+.erp-container .chart-title span:hover, .download-icon:hover{
+  color: #1890ff;
+}
+.erp-container .chart-title:before{
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #5688f4;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.erp-container .recharts-polar-angle-axis-tick-value{
+  cursor: pointer;
+}
+.erp-container .recharts-polar-angle-axis-tick-value:hover{
+  fill: #ff8a65;
+}
+.erp-chart-hover .recharts-cartesian-axis-tick-value{
+  cursor: pointer;
+}
+.erp-chart-hover .recharts-cartesian-axis-tick-value:hover{
+  fill: #ff8a65;
+}
+.table-wrapper{
+  /*overflow-y: scroll;*/
+  height: 85%;
+  min-height: 140px;
+}
+.legend-rect {
+  display: inline-block;
+  margin-right: 10px;
+}
+.legend-rect span{
+  width: 27px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.legend-rect i{
+  display: inline-block;
+  padding-left: 5px;
+  font-style: normal;
+  color: #333;
+  font-size: 12px;
+}
+.tooltips-wrapper{
+  /* background-color: #fff;
+  padding: 20px 10px;
+  text-align: left;
+  border: solid 1px #e0e0e0; */
+  border-style: solid;
+  white-space: nowrap;
+  z-index: 9999999;
+  transition: left 0.4s cubic-bezier(0.23, 1, 0.32, 1), top 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: rgba(50, 50, 50, 0.7);
+  border-width: 0px;
+  border-color: rgb(51, 51, 51);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 21px;
+  padding: 5px;
+}
+.tooltips-wrapper ul{
+  list-style: none;
+}
+.tooltips-wrapper ul li{
+  line-height: 25px;
+  list-style: none;
+}
+.twopie-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.twopie-item{
+  flex: 1
+}
+.help{
+  width: 16px;
+  height: 20px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  background: url(./static/img/help.png) left top no-repeat;
+  position: relative;
+}
+.help1{
+  background: url(./static/img/ohelp.png) left top no-repeat;
+}
+.helpn{
+  background: url(./static/img/helpn.png) left top no-repeat;
+}
+.intro{
+  position: absolute;
+  left: -30px;
+  top: 25px;
+  width: 220px;
+  border-style: solid;
+  transition: left 0.4s cubic-bezier(0.23, 1, 0.32, 1), top 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: rgba(50, 50, 50, 0.7);
+  border-width: 0px;
+  border-color: rgb(51, 51, 51);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 10px;
+  line-height: 21px;
+  padding: 5px;
+
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.intro{
+  display: none;
+}
+.help:hover .intro{
+  display: block;
+  z-index:10000
+}
+.bottom-intro{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.bottom-intro h3{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0;
+}
+.bottom-intro ul{
+  list-style: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.bottom-intro ul li{
+  line-height: 1.5;
+}
+.bottom-intro ul li p{
+  margin: 0;
+  text-indent: 12px;
+}
+.provider-total{
+  font-weight: bold;
+  position: absolute;
+  top: 16px;
+  right: 70px;
+  font-size: 16px;
+}
+.erp-selectbox{
+  position: absolute;
+  z-index: 200;
+}
+.erp-selectbox-title{
+  font-size: 14px;
+  font-weight: normal;
+}
+.section-title{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.financial-bg .ant-table-thead > tr > th {
+  background: #5c6bc0;
+  color: #fff;
+}
+.financial-bg .financial-table{
+  background: #fff;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.financial-table .ant-table-column-sorter .anticon-caret-up,
+.financial-table .ant-table-column-sorter .anticon-caret-down{
+  color: #fff;
+}
+.container-body ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

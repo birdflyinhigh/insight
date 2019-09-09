@@ -1,0 +1,24 @@
+
+.table-container{
+    width: 100%;
+    margin:10px auto;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.table-column{
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #1E1E1E;
+    text-align: center;
+    border-bottom: 1px dashed #999999;
+}
+
+.table-cell{
+    margin: 0 auto;
+}

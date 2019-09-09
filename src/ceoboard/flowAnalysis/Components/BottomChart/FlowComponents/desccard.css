@@ -1,0 +1,41 @@
+.desc-content {
+    position: relative;
+}
+
+.desc-card-container{
+    z-index: 2;
+}
+
+.arrow-middle-placeholder{
+    width:100%;
+    height:10px;
+    opacity:0;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(5) > foreignObject > div > div > div > div > div > div{
+    height:5px;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(2) > foreignObject > div > div > div > div > div > div{
+    height:5px;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(8) > foreignObject > div > div > div > div > div > div{
+    height:5px;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(5) > foreignObject > div > div > div > div{
+    margin-top: 24px;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(3) > foreignObject > div > div > div > div{
+    margin-left: 7px;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(4) > foreignObject > div > div > div{
+    margin-left: 13px;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg > g:nth-child(8) > foreignObject > div > div > div > div > div > div {
+    height: 25px;
+}

@@ -1,0 +1,17 @@
+.auth-wrapper{
+  padding: 20px 30px;
+  background-color: #fff;
+}
+.auth-item{
+  padding-top: 15px;
+}
+.auth-item strong{
+  font-weight: normal;
+  padding-bottom:5px;
+  display: inline-block;
+  padding-right: 10px;
+}
+.auth-sec-group{
+  display: inline-block;
+  padding-bottom: 10px;
+}

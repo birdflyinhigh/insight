@@ -1,0 +1,9 @@
+.arrow-card {
+    position: relative;
+}
+
+.arrow-card-content{
+    position: absolute;
+    left:30px;
+    top: 10px;
+}

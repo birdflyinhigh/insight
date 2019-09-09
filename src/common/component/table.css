@@ -1,0 +1,51 @@
+.table{
+  width: 100%;
+  border: solid 1px #f4f5f9;
+}
+.table thead td{
+  height: 40px;
+  background-color: #5C6BC0;
+  color: #fff;
+  min-width: 50px;
+}
+.table td{
+  border: solid 1px #f4f5f9;
+  height: 50px;
+  text-align: center; 
+  min-width: 50px;
+}
+/*.table tbody>tr>td{
+  transition: all .3s;
+  background-color: #fff;
+}*/
+/*.table tbody>tr:hover>td{
+  background-color: #e6f7ff;
+}*/
+.table-sort{
+  background: url(../../static/img/sort.png) left top no-repeat;
+  width: 25px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.header-div{
+  position: fixed;
+  height: 40px;
+  margin-top: -20px;
+  line-height: 40px;
+  background-color: #5C6BC0;
+  border-right: #fff solid 1px;
+}
+.second-header .header-div{
+  margin-top: -30px;
+}
+.more-margin .header-div{
+  margin-top: -40px;
+  line-height: 80px;
+}
+.table-nodata{
+  text-align: center;
+  line-height: 50px;
+  color: #9f9f9f;
+}

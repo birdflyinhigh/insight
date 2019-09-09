@@ -1,0 +1,19 @@
+#convert-flow-root {
+    display: flex;
+    justify-content: space-between;
+}
+
+#convert-flow-row1 {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+#convert-flow-row2 {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div > svg{
+    overflow: visible!important;
+}

@@ -1,0 +1,48 @@
+.metric-container1 {
+    width: 604px;
+    height: 17px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: 20px auto 10px;
+
+}
+
+.metric-box1 {
+    width: 241px;
+    height: 16px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+
+.metric-box2 {
+    width: 155px;
+    height: 16px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+
+.metric-box3 {
+    width: 241px;
+    height: 16px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+
+.metric-reg {
+    width: 20px;
+    height: 12px;
+    position: relative;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-top: 3px;
+}

@@ -1,0 +1,21 @@
+.box-title {
+    border: none;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    color: #5A7DF1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Microsoft YaHei';
+    margin-bottom: 5px;
+}
+
+
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(4) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g > path{
+    stroke-dasharray: 4
+}
+
+#root > div > div > div.ceo-content-wrapper > div > div:nth-child(5) > div > div > div.convert-flow-container > div:nth-child(2) > div > svg > g > path{
+    stroke-dasharray: 4
+}

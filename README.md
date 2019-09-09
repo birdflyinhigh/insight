@@ -1,74 +1,53 @@
-# ![React + Redux Example App](project-logo.png)
+### 技术概况
+项目使用react+redux+axios搭建，采取以业务划分文件目录的方式；每个业务目录根据功能分为  
+1. Container.js-页面和reducer的连接，请求的发送、action的触发
+2. constant.js-常量，主要包含path，InitialState
+3. action.js-包含actionName以及生成的action，分为Xhr的和纯Ui的
+4. reducer.js-包含页面的reducer，纯逻辑操作
+5. Compoment.js / Component文件夹-纯UI表现的组件，一个页面太长可被拆分为多个component，存放于文件夹中  
+主要是这五种，某些通用的action/constant/reducer会被抽出来独立地在该文件夹中存在；详情参见文件 
 
-[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)
+### 使用方法
+```git clone git@git.zhubajie.la:wangxiaoli/nodejs-data-erp.git```  
 
-> ### React + Redux codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
+```npm install```  
 
-<a href="https://stackblitz.com/edit/react-redux-realworld" target="_blank"><img width="187" src="https://github.com/gothinkster/realworld/blob/master/media/edit_on_blitz.png?raw=true" /></a>&nbsp;&nbsp;<a href="https://thinkster.io/tutorials/build-a-real-world-react-redux-application" target="_blank"><img width="384" src="https://raw.githubusercontent.com/gothinkster/realworld/master/media/learn-btn-hr.png" /></a>
+```npm start```  
+访问控制台提示地址即可
+### 部署方法
+1. ```npm run build```打包文件  
+2. 打包文件后，将static目录中文件提到build下，static目录删除，打包发送给后端部署
+3. 提供给后端新增的url，后端在自己项目中新增url
+4. 测试环境验证  
 
-### [Demo](https://react-redux.realworld.io)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
+### 环境地址
+测试环境：```https://erpbi.test.zbjdev.com/{path}```  
+预发布环境：```https://erpbi.zbj.com/{path}```  
+线上环境：```https://erpbi.zbj.com/{path}```
 
-Originally created for this [GH issue](https://github.com/reactjs/redux/issues/1353). The codebase is now feature complete; please submit bug fixes via pull requests & feedback via issues.
+### 已有组件
+#### src/common/charts中包含公用的组件
+src/common/charts中包含的Echarts相关组件：
+1. EConfig.js 常用echarts组件的配置；
+2. EDnut.js 总经理仪表盘专用带中心文字饼图；
+3. NodataEcharts 包含暂无数据和暂无权限提示的echarts组件；
+4. LoadingEcharts NodataEcharts基础上，含有正在加载提示的echarts组件
+src/common/charts其余皆为recharts组件，主要供采购仪表盘使用，其余并无使用
 
-We also have notes in [**our wiki**](https://github.com/gothinkster/react-redux-realworld-example-app/wiki) about how the various patterns used in this codebase and how they work (thanks [@thejmazz](https://github.com/thejmazz)!)
+#### src/common/component中包含公用组件
+1. BottomIntro.js 快速生成总经理仪表盘底部介绍的组件
+2. Help.js 快速生成页面所用问号小图标以及文本的组件
+3. table.js 快速生成可合并列图表的组件(目前只用于采购仪表盘)
 
+#### src/common/tools中包含的公用
+1. common.js 包含与批量生成action，发送请求并触发action，仅发送请求不触发action，post请求、下载数据的方法
+2. timeUtil.js：包含获取时间的方法，包含昨天、最近7天、最近30天、当前月第一天、当前季度第一天、当年第一天
+3. chartTool.js：包含转换图表数据的工具，主要用于采购仪表盘
+4. uitl.js： 包含日期方法（老版本可能有用，新开发建议用moment.js重写）+属性（跨页面传参时候，处理刷新情况）+字符串截断（用于帮助浮框）方法
 
-## Getting started
-
-You can view a live demo over at https://react-redux.realworld.io/
-
-To get the frontend running locally:
-
-- Clone this repo
-- `npm install` to install all req'd dependencies
-- `npm start` to start the local server (this project uses create-react-app)
-
-Local web server will use port 4100 instead of standard React's port 3000 to prevent conflicts with some backends like Node or Rails. You can configure port in scripts section of `package.json`: we use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variable PORT for React scripts, this is Windows-compatible way of setting environment variables.
- 
-Alternatively, you can add `.env` file in the root folder of project to set environment variables (use PORT to change webserver's port). This file will be ignored by git, so it is suitable for API keys and other sensitive stuff. Refer to [dotenv](https://github.com/motdotla/dotenv) and [React](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env) documentation for more details. Also, please remove setting variable via script section of `package.json` - `dotenv` never override variables if they are already set.  
-
-### Making requests to the backend API
-
-For convenience, we have a live API server running at https://conduit.productionready.io/api for the application to make requests against. You can view [the API spec here](https://github.com/GoThinkster/productionready/blob/master/api) which contains all routes & responses for the server.
-
-The source code for the backend server (available for Node, Rails and Django) can be found in the [main RealWorld repo](https://github.com/gothinkster/realworld).
-
-If you want to change the API URL to a local server, simply edit `src/agent.js` and change `API_ROOT` to the local server's URL (i.e. `http://localhost:3000/api`)
-
-
-## Functionality overview
-
-The example application is a social blogging site (i.e. a Medium.com clone) called "Conduit". It uses a custom API for all requests, including authentication. You can view a live demo over at https://redux.productionready.io/
-
-**General functionality:**
-
-- Authenticate users via JWT (login/signup pages + logout button on settings page)
-- CRU* users (sign up & settings page - no deleting required)
-- CRUD Articles
-- CR*D Comments on articles (no updating required)
-- GET and display paginated lists of articles
-- Favorite articles
-- Follow other users
-
-**The general page breakdown looks like this:**
-
-- Home page (URL: /#/ )
-    - List of tags
-    - List of articles pulled from either Feed, Global, or by Tag
-    - Pagination for list of articles
-- Sign in/Sign up pages (URL: /#/login, /#/register )
-    - Use JWT (store the token in localStorage)
-- Settings page (URL: /#/settings )
-- Editor page to create/edit articles (URL: /#/editor, /#/editor/article-slug-here )
-- Article page (URL: /#/article/article-slug-here )
-    - Delete article button (only shown to article's author)
-    - Render markdown from server client side
-    - Comments section at bottom of page
-    - Delete comment button (only shown to comment's author)
-- Profile page (URL: /#/@username, /#/@username/favorites )
-    - Show basic user info
-    - List of articles populated from author's created articles or author's favorited articles
-
-<br />
-
-[![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
+#### src/common/tools中包含的公用
+### 已有页面
+/manager/  总经理仪表盘  
+/hr  人力仪表盘
+/admin  行政仪表盘  
+更多详见nodejs-data-erp/src/App.js文件；

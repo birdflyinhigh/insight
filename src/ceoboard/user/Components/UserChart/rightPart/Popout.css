@@ -1,0 +1,57 @@
+
+.user-tool-tip{
+    width: 350px;
+    height:200px;
+    border-style: solid;
+    transition: left 0.4s cubic-bezier(0.23, 1, 0.32, 1), top 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    background-color: rgba(50, 50, 50, 0.7);
+    border-width: 0px;
+    border-color: rgb(51, 51, 51);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 5px;
+
+    max-height: 350px;
+    overflow: hidden;
+    z-index:100000;
+    opacity:1;
+
+}
+.user-tool-tip .mid-content{
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 1px dashed white;
+    border-top: 1px dashed white;
+    height: 110px;
+}
+.user-tool-tip .link1{
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    right:20px;
+    top: 90px;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+.user-tool-tip .link2{
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    right:20px;
+    top: 175px;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+.user-tool-tip .link2:hover{
+    text-decoration: underline;
+    cursor:pointer
+}
+

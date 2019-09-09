@@ -1,0 +1,25 @@
+#top-part {
+    width: 80%;
+    height: 62px;
+    background: inherit;
+    background-color: white;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    align-self: center;
+    text-align: center;
+    line-height: 47px;
+    border-top: 47px solid rgba(242, 242, 242, 1);
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    margin: 10px auto -15px;
+}
+
+.top-div-text{
+    position: absolute;
+    font-weight: 700;
+    top: 86px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,134 @@
+.financial-bg{
+  background-color: #e3e8ee;
+  min-height: 100%;
+  padding: 20px 2.6%;
+}
+.container-body{
+  padding: 0 7px;
+}
+.fpanel-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.fpanel-title1{
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fpanel-title-info{
+  display: inline-block; 
+  text-align: left;
+}
+.fpanel-title1 .fpanel-title-num{
+  float: right;
+}
+.fpanel-title-num{
+  color: #2a7bff;
+}
+.fpanel-title2{
+  line-height: 30px;
+  font-size: 14px;
+}
+.fpanel-title2 .fpanel-title-num{
+  color: #333
+}
+.fcontainer{
+  height: 360px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 15px;
+}
+.selecticon-group{
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 30px;
+}
+.selecticon-group span{
+  padding: 7px 10px;
+  width: 100%;
+  cursor: pointer;
+  border-right: solid 1px #ccc;
+}
+.selecticon-group span:last-child{
+  border-right: none;
+}
+.active-btnicon{
+  background-color: #3d545f;
+  color: #fff;
+}
+.return-last-btn{
+  position: absolute;
+  top: 17px;
+  line-height: 33px;
+  color: #2b7bff;
+  cursor: pointer;
+  right: 650px;
+  z-index: 20;
+}
+.ftop-info-group{
+  padding: 5px 25px 0 25px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.ftop-info-group b{
+  font-weight: normal;
+  font-size: 14px;
+}
+.ftop-info-group .ftop-info-num{
+  float: right;
+}
+.ftop-info-group .ftop-info-num span{
+  font-size: 18px;
+  color: #2b7bff;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.ffund-item-title{
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+}
+.fpanel-item p{
+  margin: 0;
+}
+.ffund-item-data{
+  text-align: center;
+  font-size: 16px;
+}
+.ffund-item-data b{
+  color: #2a7bff;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.ffund-detail{
+  margin: 0;
+  padding: 0;
+  color: #666;
+  list-style: none;
+}
+.ffund-detail-item{
+  overflow: hidden;
+  line-height: 30px;
+}
+.ffund-detail-title{
+  float: left;
+  font-weight: normal;
+}
+.ffund-detail-num{
+  float: right;
+}
+.ffund-detail-num b{
+  padding-right: 5px;
+}
+.fdetail-title{
+  font-size: 16px;
+}
+.chart-subunit{
+  font-weight: normal;
+  padding-left: 5px;
+}
